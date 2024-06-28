@@ -43,12 +43,11 @@ void hideSecondaryTaskbars() {
     while (running.load()) {
         EnumWindows(EnumWindowsProc, 0);
         for (HWND hwnd : foundWindows) {
-            if (IsWindowVisible(hwnd) == FALSE) {
+            if (IsWindowVisible(hwnd) == TRUE) {
+                ShowWindow(hwnd, SW_HIDE);
                 Sleep(100);
-                continue;
+                std::cout << "Secondary taskbar hidden" << std::endl;
             }
-            ShowWindow(hwnd, SW_HIDE);
-            std::cout << "Secondary taskbar hidden" << std::endl;
         }
         Sleep(100);
     }
