@@ -1,0 +1,11 @@
+= Better Taskbar
+
+A program that removes the windows taskbar and replaces it with a new one.
+
+.Motivations:
+- Windows taskbar is ugly ahh
+- Windows taskbar is not customizable at all
+- Windows taskbar has no media controls
+- Linux taskbars from https://wiki.hyprland.org/Configuring/Example-configurations/[here] look awesome and I want them
+- I hate Windows but require it for literally everything (no wine will not work)
+- That wheel sure is getting rebuilt
