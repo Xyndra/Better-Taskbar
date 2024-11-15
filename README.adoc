@@ -1,5 +1,7 @@
 = Better Taskbar
 
+NOTE: see https://github.com/Xyndra/GlassUI[my other project] for a continuation in the future
+
 A program that removes the windows taskbar and replaces it with a new one.
 
 .Motivations:
